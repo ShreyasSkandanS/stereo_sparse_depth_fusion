@@ -123,3 +123,13 @@ randomly chosen [KITTI
 
 ![](/imgs/mon_1.png) ![](/imgs/mon_2.png)
 
+If you have any questions regarding this repository or our method feel free to
+raise an issue request in this repository or email me directly.
+
+Note: this repository is part of a larger on-going research project, and
+therefore contains multiple variables that are unused (but are used in following
+research). I've tried to add ignores to most of them, but please excuse these if
+they occur. Feel free to make pull requests if you notice any bugs or wish to
+cleanup this code.
+
+
