@@ -30,7 +30,7 @@ double SAMPLING_FRACTION   = 0.50;
 double SCALING_FACTOR      = 256.0;
 
 /* input and output directories */
-std::string repo_dir = "/home/shreyas/Documents/Code_Repositories/combine_depth_stereo/SDSF/";
+std::string repo_dir = "/path/to/stereo_sparse_depth_fusion/";
 std::string left_image_uri = repo_dir + "imgs/stereo_left.png";
 std::string right_image_uri = repo_dir + "imgs/stereo_right.png";
 std::string left_depth_uri = repo_dir + "imgs/gt_disparity.png";
