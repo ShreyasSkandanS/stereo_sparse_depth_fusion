@@ -3,6 +3,7 @@
 #include <opencv2/photo/photo.hpp>
 #include <png++/png.hpp>
 #include <unordered_set>
+#include <random>
 
 class Utils
 {

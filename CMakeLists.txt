@@ -15,6 +15,8 @@ IF(OPENMP_FOUND)
     SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${OpenMP_EXE_LINKER_FLAGS}")
 ENDIF(OPENMP_FOUND)
 
+include_directories(include)
+
 find_package(PNG REQUIRED)
 include_directories(${PNG_INCLUDE_DIRS})
 link_directories(${PNG_LIBRARY_DIRS})
@@ -23,10 +25,8 @@ message(STATUS ${OpenCV_INCLUDE_DIRS})
 message(STATUS ${OpenCV_LIBRARY_DIRS})
 message(STATUS ${OpenCV_LIBS})
 
-add_executable(stereo_depth_fusion stereo_depth_fusion.cpp
-                                   SGMStereo.cpp
-                                   utils.cpp
-                                   SGMStereo.h
-                                   utils.h)
+add_executable(stereo_depth_fusion src/stereo_depth_fusion.cpp
+                                   src/SGMStereo.cpp
+                                   src/utils.cpp)
 target_link_libraries(stereo_depth_fusion ${OpenCV_LIBS} ${PNG_LIBS})
 

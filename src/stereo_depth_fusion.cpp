@@ -4,8 +4,8 @@
 #include <fstream>
 #include <cstdlib>
 #include <dirent.h>
-#include "SGMStereo.h"
-#include "utils.h"
+#include "stereo_sdf/SGMStereo.h"
+#include "stereo_sdf/utils.h"
 
 using namespace std;
 

@@ -22,7 +22,7 @@
  *    sshreyas@seas.upenn.edu
  */
 
-#include "SGMStereo.h"
+#include "stereo_sdf/SGMStereo.h"
 #include <stack>
 #include <algorithm>
 #include <nmmintrin.h>
