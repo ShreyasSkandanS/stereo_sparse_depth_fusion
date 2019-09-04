@@ -6,14 +6,16 @@ Estimation by Fusing Stereo with Sparse Depth Measurements*
 ## Reference
 
 If you use this work, please cite our
-[paper](https://arxiv.org/pdf/1809.07677.pdf):
+[paper](https://ieeexplore.ieee.org/abstract/document/8794023):
 
 ```
-@article{shivakumar2018real,
-  title={Real Time Dense Depth Estimation by Fusing Stereo with Sparse Depth Measurements},
+@inproceedings{shivakumar2019real,
+  title={Real time dense depth estimation by fusing stereo with sparse depth measurements},
   author={Shivakumar, Shreyas S and Mohta, Kartik and Pfrommer, Bernd and Kumar, Vijay and Taylor, Camillo J},
-  journal={arXiv preprint arXiv:1809.07677},
-  year={2018}
+  booktitle={2019 International Conference on Robotics and Automation (ICRA)},
+  pages={6482--6488},
+  year={2019},
+  organization={IEEE}
 }
 ```
 
