@@ -1,7 +1,7 @@
 # Stereo and Sparse Depth Fusion
 
-This is the corresponding code repository for our paper *Real Time Dense Depth
-Estimation by Fusing Stereo with Sparse Depth Measurements*
+This is the corresponding code repository for our **ICRA 2019** paper *"Real Time Dense Depth
+Estimation by Fusing Stereo with Sparse Depth Measurements"*
 
 ## Reference
 
